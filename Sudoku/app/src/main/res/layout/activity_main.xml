@@ -1,0 +1,1201 @@
+<?xml version="0.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorC"
+    android:inputType="number"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input your sudoku:"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="5dp"
+        android:textAlignment="center" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+
+
+                <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_00"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:onClick="xavi"
+                android:background="@drawable/my_button"/>
+
+
+                <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_01"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_02"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_03"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_04"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_05"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_06"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_07"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_08"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_17"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_20"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_25"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text=""
+                android:textColorHighlight="@color/colorB" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_26"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_27"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_28"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_30"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_31"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_32"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_33"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_34"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_35"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_36"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_37"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_38"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_40"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_41"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_42"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_43"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_44"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_45"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_46"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_47"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_48"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_50"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_51"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_52"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_53"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_54"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_55"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_56"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_57"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_58"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_60"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_61"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_62"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_63"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_64"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_65"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_66"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_67"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_68"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_70"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_71"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_72"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_73"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_74"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_75"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_76"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_77"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_78"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_80"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_81"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_82"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_83"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_84"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_85"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_86"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_87"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+
+
+        <Button
+
+            android:textSize="18dp"
+        android:textColor="@color/colorPrimary"
+                android:id="@+id/_88"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/my_button"
+                android:onClick="xavi"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Choose a number from 1 to 9, and click a circle"
+        android:textColorHint="@color/hint"
+        android:inputType="number" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="278dp"
+                android:layout_height="126dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.36">
+
+                <Button
+
+                    android:id="@+id/solve"
+                    android:layout_width="270dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/long_button"
+                    android:onClick="solveSudoku"
+                    android:shadowColor="#fd6600"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="8"
+                    android:text="Solve!"
+                    android:textSize="30sp" />
+
+                <Button
+
+                    android:id="@+id/button4"
+                    android:layout_width="270dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/long_button"
+                    android:onClick="restart"
+                    android:padding="2dp"
+                    android:shadowColor="#fd6600"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="8"
+                    android:text="Restart"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
